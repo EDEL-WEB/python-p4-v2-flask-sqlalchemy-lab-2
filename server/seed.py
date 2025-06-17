@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-from server.app import app
-from server.models import db, Customer, Review, Item
+from app import app
+from models import db, Customer, Review, Item
 
 with app.app_context():
 
